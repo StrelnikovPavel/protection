@@ -235,11 +235,13 @@ document.addEventListener('DOMContentLoaded', function () {
             popupSend.classList.remove('_active');
             popupRemove.classList.remove('_active');
             body.classList.remove('_lock');
+            form.reset();
          } else {
             alert("Ошибка");
             popupSend.classList.remove('_active');
             popupRemove.classList.remove('_active');
             body.classList.remove('_lock');
+            form.reset();
          }
       } else {
          alert('Заполните обязательные поля');
